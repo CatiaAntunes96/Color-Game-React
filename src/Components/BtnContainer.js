@@ -11,7 +11,7 @@ const BtnContainer = () => {
     const [spanText, setSpanText] = useState("");
     const [displayEasy, setDisplayEasy] = useState(false);
     const [displayHard, setDisplayHard] = useState(false);
-    const [color, setColor] = useState([]);
+    const [colors, setColors] = useState([]);
     
     const newGame = () => {
         setSpanText("Choose your level");
@@ -22,7 +22,8 @@ const BtnContainer = () => {
     const visibilityEasy = () => {
         setSpanText("")
         setDisplayEasy(true);
-        setColor(generateRandomColor(3));     
+        setDisplayHard(false);
+        setColors(generateRandomColor(3));     
     }
     
     const visibilityHard = () => {
@@ -47,7 +48,7 @@ const BtnContainer = () => {
       }
     
     
-    const squares_easy = <SquaresEasy color={color}/>
+    const squares_easy = <SquaresEasy colors={colors}/>
     const squares_hard = <SquaresHard />
     const div = <div></div>
     

@@ -1,13 +1,13 @@
 import React from "react";
-import "../Style/Squares.css";
+import Square from "./Square";
 
-const SquaresEasy = ({color}) => {
+const SquaresEasy = ({colors}) => {
 
     return(
         <div>
-            <div className="square" style={{backgroundColor: color[0]}}></div>
-            <div className="square" style={{backgroundColor: color[1]}}></div>
-            <div className="square" style={{backgroundColor: color[2]}}></div>
+            {colors.map((color, i) => (
+                <Square key= {i + 1} styleColor={color}/>
+            ))}
         </div>
     )
 }
