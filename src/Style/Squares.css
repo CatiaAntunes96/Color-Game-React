@@ -1,7 +1,13 @@
 .square {
     height: 9em;
     width: 9em;
-    margin: 4em 0em 1em;
     border-radius: 15px;
-    background-color: aqua;
+    background-color: #292626;
+}
+
+.little-square {
+    height: 2em;
+    width: 2em;
+    border-radius: 5px;
+    margin-left: 20px;
 }
