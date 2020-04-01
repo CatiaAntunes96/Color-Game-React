@@ -1,0 +1,16 @@
+.easy-btn {
+    background-color: #20b6ff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.easy-btn:hover {
+    background-color: white;
+    color: #20b6ff;
+}
+

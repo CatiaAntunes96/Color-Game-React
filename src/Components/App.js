@@ -1,5 +1,6 @@
 import React from 'react';
-import BtnContainer from "./BtnContainer";
+import Container from "./Container";
+import "../Style/App.css";
 
 function App() {
   return (
@@ -7,7 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Color Game</h1>
       </header>
-      <BtnContainer />
+      <Container />
     </div>
   );
 }

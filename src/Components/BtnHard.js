@@ -1,11 +1,12 @@
 import React from "react";
+import "../Style/HardBtn.css";
 
-const BtnHard = ({ toogle }) => {
+const BtnHard = ({ toogle, disabled }) => {
     
 
     return(
         <div>
-            <button type="button" onClick={toogle}>Hard</button>
+            <button type="button" onClick={toogle} disabled={disabled} className="btn-hard">Hard</button>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from "react";
+import "../Style/NewGameBtn.css"
 
 const BtnNewGame = ({ click }) => {
 
     return(
-    <div>
-        <button type="button" onClick={click}>New game</button>
+    <div className="btn-newGame">
+        <button type="button" onClick={click} className="btn-new">New game</button>
     </div>
     )}
 
