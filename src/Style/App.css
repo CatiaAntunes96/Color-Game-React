@@ -17,3 +17,21 @@ body {
   height: 5em;
   font-weight: bold;
 }
+
+@media screen and (max-width: 319px) {
+  .App{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .App-header {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 790px) {
+  .App-header {
+    font-size: 21px;
+  }
+}

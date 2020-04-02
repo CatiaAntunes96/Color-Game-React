@@ -1,6 +1,6 @@
 .main-container {
-    height: 83vh;
     background-color: #292626;
+    height: 83vh;
 }
 
 .btn-level {
@@ -36,4 +36,32 @@
 
 button:focus {
     outline: 0;
-  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .main-container {
+        height: 86vh;
+    }
+    .message-alert {
+        font-size: 20px;
+    }
+    .btn-level {
+        width: 70%;
+    }
+    .squares-container {
+        margin: 15% 5%;
+        grid-row-gap: 35px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 790px) {
+    .main-container {
+        height: 85.2vh;
+    }
+    .btn-level {
+        width: 30%;
+    }
+    .squares-container {
+        margin: 0 10%;
+    }
+}

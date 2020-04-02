@@ -19,3 +19,11 @@
     background-color: black;
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .btn-newGame {
+        margin: 25px;
+    }
+    .btn-new {  
+        font-size: 17px;
+    }
+}
