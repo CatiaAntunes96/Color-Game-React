@@ -14,3 +14,8 @@
     color: #20b6ff;
 }
 
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .easy-btn {
+        font-size: 17px;
+    }
+}
